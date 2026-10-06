@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav id="naveg">
+            <ul>
+                <li>
+                    <a href="#Inicio">Inicio</a>
+                </li>
+                <li>
+                    <a href="#Productos">Productos</a>
+                </li>
+                <li>
+                    <a href="#review">Reseñas</a>
+                </li>
+                <li>
+                    <a href="#Contacto">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="Inicio">
+            <h1>Tienda de mascotas</h1>
+        </section>
+        <section id="Productos">
+            <h2>Productos</h2>
+            <div id="galeria">
+                <div class="prod">
+                    <h3>Correa</h3>
+                    <img src="https://cdn.discordapp.com/attachments/1336331905414467696/1557150442851405864/c2-r-4-fe3a276baa40dac86617089731233412-1024-1024.png?backend=b2&ex=6ac6c0dc&is=6ac56f5c&hm=56365845978800ad103eb7abc01a3aa3144aab35f099747832985a65cdf5fb61&"
+                        alt="caca" width="100"><br>
+                    <p>$100</p>
+                </div>
+                <div class="prod">
+                    <h3>Correa</h3>
+                    <img src="https://cdn.discordapp.com/attachments/1336331905414467696/1557150442851405864/c2-r-4-fe3a276baa40dac86617089731233412-1024-1024.png?backend=b2&ex=6ac6c0dc&is=6ac56f5c&hm=56365845978800ad103eb7abc01a3aa3144aab35f099747832985a65cdf5fb61&"
+                        alt="caca" width="100"><br>
+                    <p>$100</p>
+                </div>
+                <div class="prod">
+                    <h3>Correa</h3>
+                    <img src="https://cdn.discordapp.com/attachments/1336331905414467696/1557150442851405864/c2-r-4-fe3a276baa40dac86617089731233412-1024-1024.png?backend=b2&ex=6ac6c0dc&is=6ac56f5c&hm=56365845978800ad103eb7abc01a3aa3144aab35f099747832985a65cdf5fb61&"
+                        alt="caca" width="100"><br>
+                    <p>$100</p>
+                </div>
+                <div class="prod">
+                    <h3>Correa</h3>
+                    <img src="https://cdn.discordapp.com/attachments/1336331905414467696/1557150442851405864/c2-r-4-fe3a276baa40dac86617089731233412-1024-1024.png?backend=b2&ex=6ac6c0dc&is=6ac56f5c&hm=56365845978800ad103eb7abc01a3aa3144aab35f099747832985a65cdf5fb61&"
+                        alt="caca" width="100"><br>
+                    <p>$100</p>
+                </div>
+            </div>
+        </section>
+        <section id="review">
+            <h2>Reseñas</h2>
+            <div id="res">
+                <div class="review2">
+                    <h3>Gonzalo Sanchez</h3>
+                    <p>No me gustó
+                    </p>
+                    <p>☆☆</p>
+                </div>
+                <div class="review2">
+                    <h3>Gonzalo Sanchez</h3>
+                    <p>No me gustó
+                    </p>
+                    <p>☆☆</p>
+                </div>
+                <div class="review2">
+                    <h3>Gonzalo Sanchez</h3>
+                    <p>No me gustó
+                    </p>
+                    <p>☆☆</p>
+                </div>
+            </div>
+        </section>
+        <section id="Contacto">
+            <h2>Contacto</h2>
+
+            <form id="form" action="aws.xx.xxx.xxxx/ingreso.php" method="post">
+                <fieldset>
+                    <p>
+                        <label for="">Nombre y Apellido</label>
+                        <input type="text" name="nomApe" id="nomApe" placeholder="Pati Sanchez" minlength="3"
+                            maxlength="60" required></input>
+                    </p>
+
+                    <p>
+                        <label for="">Email</label>
+                        <input type="email" id="email" name="email" placeholder="nombre@mail.com" minlength="3"
+                            maxlength="60" required></input>
+                    </p>
+
+                    <p>
+                        <label for="">Teléfono</label>
+                        <input type="tel" id="tel" name="tel" placeholder="XX-XXXX-XXXX" minlength="3" maxlength="60"
+                            required></input>
+                    </p>
+
+                    <p>
+                        <label for="">Fecha de Nacimiento</label>
+                        <input type="date" id="fnac" name="fnac" minlength="3" maxlength="60" required></input>
+                    </p>
+                    <p>
+                        <label for="consulta">Consulta</label>
+                        <textarea name="consulta" id="consulta" placeholder="Escriba su consulta"></textarea>
+                    </p>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpiar</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        © 2026 Gonzalo Sanchez & Co.
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+* {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+main {
+    padding: 2%;
+}
+
+body {
+    background-color: rgb(215, 236, 250);
+
+}
+
+h1 {
+    color: rgb(81, 109, 109);
+    text-align: center;
+    margin: 50px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: rgb(81, 109, 109);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+#naveg {
+    background-color: bisque;
+    padding: 5px;
+}
+
+#naveg ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+#naveg ul li {
+    list-style: none;
+    font-weight: bold;
+
+}
+
+#galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#galeria .prod {
+    background-color: brown;
+    padding: 5px;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+#res {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 50px;
+    justify-items: center;
+}
+
+#res .review2 {
+    background-color: brown;
+    color: blanchedalmond;
+    padding: 5px;
+    width: 100%;
+}
+
+#form {
+    background-color: brown;
+    padding: 5px;
+    color: antiquewhite;
+    margin: 5px;
+    text-align: center;
+}
+
+#form fieldset p {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 0px;
+    align-items: center;
+
+}
+
+footer {
+    background-color: crimson;
+    padding: 20px;
+    color: cornflowerblue;
+}
+
+@media (max-width: 600px) {
+    #form fieldset p {
+        grid-template-columns: 1fr;
+    }
+}
