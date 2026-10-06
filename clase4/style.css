@@ -1,0 +1,29 @@
+*{
+    border: t0px;;
+}
+/*etiqueta*/
+body{
+    background-color: rgb(47, 84, 117);
+}
+
+p {
+    color: blueviolet;
+}
+h1{
+    color: aqua;
+}
+
+/*clase*/
+.fondo{ 
+    background-color: aquamarine;
+}
+
+.tamano{
+    font-size:24px;
+}
+
+/*id*/
+#bold{
+    font-weight: bold;
+}   
+
